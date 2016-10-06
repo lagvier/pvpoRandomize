@@ -1,0 +1,16 @@
+Package: pvpoRandomize
+Title: Randomization of NPT and DUS entries both for RCBD and Alpha designs
+Version: 1.0
+Authors@R: "Abraham Lagat <abraham.lagat.k@gmail.com>[aut, cre]"
+Description: The package randomizes NPT and DUS entries based on the number of
+    entries for either randomized complete block design where entries are less than
+    13 and into Alpha (incomplete block) design otherwise. In case of Alpha design
+    the package will require ALPHA generated files in dsn format.
+Depends:
+    R (>= 3.2.3),
+    reshape,
+    agricolae,XLConnect
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
